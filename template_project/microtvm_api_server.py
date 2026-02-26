@@ -45,11 +45,11 @@ from tvm.micro.project_api import server
 _LOG = logging.getLogger(__name__)
 _LOG.setLevel(logging.WARNING)
 
-DBG = False
-# DBG = True
+# DBG = False
+DBG = True
 
-PRINT = False
-# PRINT = True
+# PRINT = False
+PRINT = True
 
 PROJECT_DIR = pathlib.Path(os.path.dirname(__file__) or os.getcwd())
 
